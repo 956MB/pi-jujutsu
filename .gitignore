@@ -1,0 +1,10 @@
+node_modules
+
+*.tsbuildinfo
+
+.vitest/
+.DS_Store
+
+# NOTE: dist/ is intentionally NOT ignored. pi installs git packages with
+# `npm install --omit=dev --omit=peer`, so nothing is built at install time.
+# Commit dist/ before pushing.
